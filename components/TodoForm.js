@@ -25,13 +25,13 @@ const TodoForm = ({ addTodo }) => {
                 label='Add task'
                 value={text}
                 mode="outlined"
-                activeOutlineColor="#eb5e28"
+                activeOutlineColor="purple"
                 onChangeText={text => setText(text)}
                 right={
                     <TextInput.Icon 
                         icon='pencil' 
                         onPress={handleSubmit}
-                        iconColor='#eb5e28'
+                        iconColor='purple'
                     />
                 }
                 onSubmitEditing={handleSubmit}
@@ -41,12 +41,12 @@ const TodoForm = ({ addTodo }) => {
                 label='Add category'  // New input for category
                 value={category}
                 mode="outlined"
-                activeOutlineColor="#eb5e28"
+                activeOutlineColor="purple"
                 onChangeText={category => setCategory(category)}
                 onSubmitEditing={handleSubmit}
                 style={{ marginBottom: 10 }}
             />
-            <Button mode="contained" onPress={handleSubmit} buttonColor="#eb5e28">
+            <Button mode="contained" onPress={handleSubmit} buttonColor="purple">
                 Add Task
             </Button>
 

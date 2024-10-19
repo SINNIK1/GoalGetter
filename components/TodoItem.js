@@ -56,8 +56,8 @@ const TodoItem = ({ todo, remove, toggle }) => {
                         position="leading"
                         labelStyle={{ textAlign: 'left', paddingLeft: 10 }}
                         labelVariant="titleLarge"
-                        color="#eb5e28"
-                        uncheckedColor="#eb5e28"
+                        color="purple"
+                        uncheckedColor="purple"
                     />
                     {todo.category && (  // Display category if it exists
                         <Text style={styles.categoryText}>Category: {todo.category}</Text>

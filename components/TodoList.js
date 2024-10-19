@@ -95,7 +95,7 @@ const TodoList = () => {
                     onValueChange={setFilter}
                     theme={{ 
                         colors: { 
-                            secondaryContainer: '#f7b9a1' 
+                            secondaryContainer: '#DFC5FE' 
                         }
                     }}
                     buttons={[

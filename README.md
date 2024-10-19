@@ -13,13 +13,16 @@ A straightforward mobile todo list built with React Native and React Native Pape
 
 # Custom Components
 
-<ul>
-  <li>TodoItem: Each individual task that the user adds</li>
-  <li>TodoForm: The form allowing the user to add tasks</li>
-  <li>
-    TodoList: The list that displays the form and each added task. This component contains all of the state for the application and handles the logic for all of the buttons and checkboxes
-  </li>
-</ul>
+## Group Lists:
+○ Users should be able to create different "groups" or categories to organize their
+tasks.
+## Todo Lists:
+○ Within each group, users should be able to add multiple todo items.
+○ Each todo item should have a title and a description.
+## Task Management:
+○ The app should allow users to mark tasks as completed or pending.
+○ Users should have the option to edit or delete tasks.
+
 
 # Technologies
 
@@ -35,6 +38,3 @@ A straightforward mobile todo list built with React Native and React Native Pape
     <li>React Native Swipe List View</li>
   </ul>
   
-# Contact
-
-email: brian.toch23@gmail.com
