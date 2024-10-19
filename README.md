@@ -5,7 +5,7 @@ A straightforward mobile todo list built with React Native. Users can add tasks,
 <div align='center'>
   ## App Demo
 <p align="center">
-  <img src="https://github.com/user-attachments/assets/0d02d397-d228-41bd-b6e6-c38f1935bb28" alt="Image 1" width="200" />
+  <img src="https://github.com/user-attachments/assets/b16025c7-0dd5-43a4-b551-3d7cf22d6b27" alt="Image 1" width="200" />
   <img src="https://github.com/user-attachments/assets/7be0f6a7-5802-42df-9e06-e1a78a0131e5" alt="Image 1" width="200" />
   <img src="https://github.com/user-attachments/assets/063c1c32-ed3c-42d9-9219-ba1750968b2f" alt="Image 2" width="200" />
 </p>
