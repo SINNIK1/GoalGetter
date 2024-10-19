@@ -11,15 +11,19 @@ A straightforward mobile todo list built with React Native. Users can add tasks,
 </p>
 </div>
 
-# Custom Components
+## Challenges Encountered
 
-## Group Lists:
+- **Dependency Management**: Managing and updating dependencies, especially in a rapidly evolving ecosystem, sometimes led to compatibility issues and required significant time to resolve.
+- **Database Integration**: Integrating SQLite for local data storage was the most challenging part which required careful planning, especially in handling asynchronous operations.
+
+
+### Group Lists:
   Users should be able to create different "groups" or categories to organize their
   tasks.
-## Todo Lists:
+### Todo Lists:
   Within each group, users should be able to add multiple todo items.
   Each todo item should have a title and a description.
-## Task Management:
+### Task Management:
   The app should allow users to mark tasks as completed or pending.
   Users should have the option to edit or delete tasks.
 
